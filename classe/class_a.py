@@ -19,6 +19,7 @@ db = [vars(p1), vars(p2), p3.__dict__]
 
 
 def dump():
+    
     with open(CAMINHO_DO_ARQUIVO, "w") as arquivo:
         json.dump(db, arquivo, ensure_ascii=False,indent=2 )
     
