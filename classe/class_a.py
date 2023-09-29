@@ -16,7 +16,7 @@ p2 = Pessoa("Lais", 20, 2000)
 p3 = Pessoa("Alessandra", 24, 2000)
 
 db = [vars(p1), vars(p2), p3.__dict__]
-
+print(db)
 
 def dump():
     
